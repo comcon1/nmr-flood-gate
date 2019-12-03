@@ -1,0 +1,61 @@
+Transmittal Report:
+Created by AutoCAD eTransmit Sunday, August 12, 2018, 9:52 PM.
+
+Drawing:
+This is a transmittal based on All_components_shluz_1.9.3.dwg.
+
+Files:
+
+Root Drawing:
+	All_components_shluz_1.9.3.dwg
+
+AutoCAD Font Map References:
+	acad.fmp
+
+AutoCAD Compiled Shape References:
+	simplex.shx
+
+TrueType font file References:
+	arial.ttf
+
+JPEG image References:
+	shluz_1.9.11.jpg
+	shluz_1.9.12.jpg
+	shluz_1.9.13.jpg
+	shluz_1.9.14.jpg
+	shluz_1.9.15.jpg
+	shluz_1.9.16.jpg
+	shluz_1.9.17.jpg
+	shluz_1.9.18.jpg
+	shluz_1.9.18.1.jpg
+	shluz_1.9.19.jpg
+	shluz_1.9.19.1.jpg
+	shluz_1.9_2.jpg
+	shluz_1.9_3.1.jpg
+	shluz_1.9_4.1.jpg
+	shluz_1.9_5.jpg
+	shluz_1.9_5.1.2.jpg
+	shluz_1.9_6.jpg
+	shluz_1.9_7.jpg
+	shluz_1.9_9.jpg
+
+
+Conversion:
+All drawing files were converted to AutoCAD 2000/LT2000 format.
+
+
+Notes for distribution:
+
+Raster image files:
+Image paths were removed, so all image files must be placed on the AutoCAD search path, a project search path or in the same directory as the root drawing.
+
+.SHX fonts:
+Please copy these fonts to the AutoCAD Fonts directory and check with the font manufacturer about distribution rights.  Fonts supplied with AutoCAD are freely distributable.
+
+.TTF fonts:
+TTF fonts must be registered with the Operating System.  To register, copy these files to the system fonts folder or use the fonts application in the Control Panel.  Check with the font manufacturer about distribution rights.  Fonts supplied with AutoCAD are freely distributable.
+
+The AutoCAD variable FONTALT was set to:
+C:\Users\Dmitry\appdata\roaming\autodesk\autocad 2012 - english\r18.2\enu\support\simplex.shx
+Please make sure that the FONTALT variable is set to this file or an equivalent before opening any drawings.  All text styles with missing fonts are automatically set to this font.
+
