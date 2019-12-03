@@ -1,0 +1,710 @@
+EESchema Schematic File Version 4
+LIBS:gateboard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "6 feb 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_Photo_NPN Q1
+U 1 1 5B63A671
+P 1200 4050
+F 0 "Q1" H 1390 4096 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 1390 4005 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 1400 4150 50  0001 C CNN
+F 3 "~" H 1200 4050 50  0001 C CNN
+	1    1200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5B63A812
+P 1300 3600
+F 0 "R7" H 1370 3646 50  0000 L CNN
+F 1 "10k" H 1370 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1230 3600 50  0001 C CNN
+F 3 "~" H 1300 3600 50  0001 C CNN
+	1    1300 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5B63A9F6
+P 1500 3800
+F 0 "D7" H 1600 3350 50  0000 C CNN
+F 1 "MMSD4148" H 1600 3250 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 1500 3800 50  0001 C CNN
+F 3 "~" H 1500 3800 50  0001 C CNN
+	1    1500 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_Photo_NPN Q6
+U 1 1 5B63B1FF
+P 5800 4050
+F 0 "Q6" H 5990 4096 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 5990 4005 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 6000 4150 50  0001 C CNN
+F 3 "~" H 5800 4050 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5B63B205
+P 6800 3600
+F 0 "R12" H 6870 3646 50  0000 L CNN
+F 1 "10k" H 6870 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6730 3600 50  0001 C CNN
+F 3 "~" H 6800 3600 50  0001 C CNN
+	1    6800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3750 1300 3800
+Wire Wire Line
+	1350 3800 1300 3800
+Connection ~ 1300 3800
+Wire Wire Line
+	1300 3800 1300 3850
+Wire Wire Line
+	6800 3750 6800 3800
+$Comp
+L Device:LED D2
+U 1 1 5B63B506
+P 2250 1600
+F 0 "D2" V 2288 1483 50  0000 R CNN
+F 1 "LED" V 2197 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 2250 1600 50  0001 C CNN
+F 3 "~" H 2250 1600 50  0001 C CNN
+	1    2250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B63B50C
+P 2250 1200
+F 0 "R2" H 2320 1246 50  0000 L CNN
+F 1 "200" H 2320 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2180 1200 50  0001 C CNN
+F 3 "~" H 2250 1200 50  0001 C CNN
+	1    2250 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1350 2250 1450
+$Comp
+L Device:LED D1
+U 1 1 5B63B64A
+P 1750 1600
+F 0 "D1" V 1788 1483 50  0000 R CNN
+F 1 "LED" V 1697 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 1750 1600 50  0001 C CNN
+F 3 "~" H 1750 1600 50  0001 C CNN
+	1    1750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B63B650
+P 1750 1200
+F 0 "R1" H 1820 1246 50  0000 L CNN
+F 1 "200" H 1820 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 1200 50  0001 C CNN
+F 3 "~" H 1750 1200 50  0001 C CNN
+	1    1750 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1350 1750 1450
+Wire Wire Line
+	1750 1050 2250 1050
+Wire Wire Line
+	1750 1750 1750 1850
+Wire Wire Line
+	1750 1850 2250 1850
+Wire Wire Line
+	2250 1850 2250 1750
+$Comp
+L Device:LED D4
+U 1 1 5B63B9F7
+P 4300 1600
+F 0 "D4" V 4338 1483 50  0000 R CNN
+F 1 "LED" V 4247 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4300 1600 50  0001 C CNN
+F 3 "~" H 4300 1600 50  0001 C CNN
+	1    4300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5B63B9FD
+P 4300 1200
+F 0 "R4" H 4370 1246 50  0000 L CNN
+F 1 "200" H 4370 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 1200 50  0001 C CNN
+F 3 "~" H 4300 1200 50  0001 C CNN
+	1    4300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1350 4300 1450
+$Comp
+L Device:LED D3
+U 1 1 5B63BA04
+P 3800 1600
+F 0 "D3" V 3838 1483 50  0000 R CNN
+F 1 "LED" V 3747 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3800 1600 50  0001 C CNN
+F 3 "~" H 3800 1600 50  0001 C CNN
+	1    3800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5B63BA0A
+P 3800 1200
+F 0 "R3" H 3870 1246 50  0000 L CNN
+F 1 "200" H 3870 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 1200 50  0001 C CNN
+F 3 "~" H 3800 1200 50  0001 C CNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1350 3800 1450
+Wire Wire Line
+	3800 1050 4300 1050
+Wire Wire Line
+	3800 1750 3800 1850
+Wire Wire Line
+	3800 1850 4300 1850
+Wire Wire Line
+	4300 1850 4300 1750
+$Comp
+L Device:LED D6
+U 1 1 5B63BC2F
+P 5300 1600
+F 0 "D6" V 5338 1483 50  0000 R CNN
+F 1 "LED" V 5247 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 5300 1600 50  0001 C CNN
+F 3 "~" H 5300 1600 50  0001 C CNN
+	1    5300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5B63BC35
+P 5300 1200
+F 0 "R6" H 5370 1246 50  0000 L CNN
+F 1 "200" H 5370 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5230 1200 50  0001 C CNN
+F 3 "~" H 5300 1200 50  0001 C CNN
+	1    5300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1350 5300 1450
+$Comp
+L Device:LED D5
+U 1 1 5B63BC3C
+P 4800 1600
+F 0 "D5" V 4838 1483 50  0000 R CNN
+F 1 "LED" V 4747 1483 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 1600 50  0001 C CNN
+F 3 "~" H 4800 1600 50  0001 C CNN
+	1    4800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5B63BC42
+P 4800 1200
+F 0 "R5" H 4870 1246 50  0000 L CNN
+F 1 "200" H 4870 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4730 1200 50  0001 C CNN
+F 3 "~" H 4800 1200 50  0001 C CNN
+	1    4800 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1350 4800 1450
+Wire Wire Line
+	4800 1050 5300 1050
+Wire Wire Line
+	4800 1750 4800 1850
+Wire Wire Line
+	4800 1850 5300 1850
+Wire Wire Line
+	5300 1850 5300 1750
+Wire Wire Line
+	4300 1050 4800 1050
+Connection ~ 4300 1050
+Connection ~ 4800 1050
+Wire Wire Line
+	4300 1850 4800 1850
+Connection ~ 4300 1850
+Connection ~ 4800 1850
+$Comp
+L Device:Q_Photo_NPN Q2
+U 1 1 5B63CFE9
+P 2050 4050
+F 0 "Q2" H 2240 4096 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 2240 4005 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 2250 4150 50  0001 C CNN
+F 3 "~" H 2050 4050 50  0001 C CNN
+	1    2050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5B63CFEF
+P 2150 3600
+F 0 "R8" H 2220 3646 50  0000 L CNN
+F 1 "10k" H 2220 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2080 3600 50  0001 C CNN
+F 3 "~" H 2150 3600 50  0001 C CNN
+	1    2150 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5B63CFF5
+P 2350 3800
+F 0 "D8" H 2400 3350 50  0000 C CNN
+F 1 "MMSD4148" H 2450 3250 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 2350 3800 50  0001 C CNN
+F 3 "~" H 2350 3800 50  0001 C CNN
+	1    2350 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 3750 2150 3800
+Wire Wire Line
+	2200 3800 2150 3800
+Connection ~ 2150 3800
+Wire Wire Line
+	2150 3800 2150 3850
+Wire Wire Line
+	2150 3450 1300 3450
+Wire Wire Line
+	2150 4250 1300 4250
+$Comp
+L Device:Q_Photo_NPN Q5
+U 1 1 5B63E3A0
+P 6700 4050
+F 0 "Q5" H 6890 4096 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 6890 4005 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 6900 4150 50  0001 C CNN
+F 3 "~" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5B63E3A6
+P 5900 3600
+F 0 "R11" H 5970 3646 50  0000 L CNN
+F 1 "10k" H 5970 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 3600 50  0001 C CNN
+F 3 "~" H 5900 3600 50  0001 C CNN
+	1    5900 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5B63E3AC
+P 6100 3800
+F 0 "D10" H 6150 3250 50  0000 C CNN
+F 1 "MMSD4148" H 6150 3350 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 3800 50  0001 C CNN
+F 3 "~" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3750 5900 3800
+Wire Wire Line
+	5950 3800 5900 3800
+Connection ~ 5900 3800
+Wire Wire Line
+	5900 3800 5900 3850
+Wire Wire Line
+	5900 4250 6800 4250
+$Comp
+L Device:Q_Photo_NPN Q4
+U 1 1 5B63F373
+P 4000 4050
+F 0 "Q4" H 4190 4096 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 4190 4005 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 4200 4150 50  0001 C CNN
+F 3 "~" H 4000 4050 50  0001 C CNN
+	1    4000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5B63F379
+P 5000 3600
+F 0 "R10" H 5070 3646 50  0000 L CNN
+F 1 "10k" H 5070 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 3600 50  0001 C CNN
+F 3 "~" H 5000 3600 50  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3750 5000 3800
+$Comp
+L Device:Q_Photo_NPN Q3
+U 1 1 5B63F380
+P 4900 4050
+F 0 "Q3" H 5090 4096 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 5090 4005 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 5100 4150 50  0001 C CNN
+F 3 "~" H 4900 4050 50  0001 C CNN
+	1    4900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5B63F386
+P 4100 3600
+F 0 "R9" H 4170 3646 50  0000 L CNN
+F 1 "10k" H 4170 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4030 3600 50  0001 C CNN
+F 3 "~" H 4100 3600 50  0001 C CNN
+	1    4100 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5B63F38C
+P 4300 3800
+F 0 "D9" H 4350 3350 50  0000 C CNN
+F 1 "MMSD4148" H 4400 3250 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 4300 3800 50  0001 C CNN
+F 3 "~" H 4300 3800 50  0001 C CNN
+	1    4300 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3750 4100 3800
+Wire Wire Line
+	4150 3800 4100 3800
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 3800 4100 3850
+Wire Wire Line
+	4100 3450 5000 3450
+Connection ~ 5000 3450
+Connection ~ 5900 3450
+Wire Wire Line
+	5000 4250 5900 4250
+Connection ~ 5000 4250
+Connection ~ 5900 4250
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5B641879
+P 3000 3850
+F 0 "J9" H 2919 3525 50  0000 C CNN
+F 1 "Conn_01x02" H 2919 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 3850 50  0001 C CNN
+F 3 "~" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5B641FD7
+P 1200 1500
+F 0 "J1" H 1120 1175 50  0000 C CNN
+F 1 "Conn_01x02" H 1120 1266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1200 1500 50  0001 C CNN
+F 3 "~" H 1200 1500 50  0001 C CNN
+	1    1200 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5B6420DB
+P 3450 3850
+F 0 "J10" H 3370 3525 50  0000 C CNN
+F 1 "Conn_01x02" H 3370 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 3850 50  0001 C CNN
+F 3 "~" H 3450 3850 50  0001 C CNN
+	1    3450 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5B643055
+P 5900 1500
+F 0 "J4" H 5819 1175 50  0000 C CNN
+F 1 "Conn_01x02" H 5819 1266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5900 1500 50  0001 C CNN
+F 3 "~" H 5900 1500 50  0001 C CNN
+	1    5900 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5B644DCF
+P 650 3850
+F 0 "J8" H 570 3525 50  0000 C CNN
+F 1 "Conn_01x02" H 570 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 650 3850 50  0001 C CNN
+F 3 "~" H 650 3850 50  0001 C CNN
+	1    650  3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5B647189
+P 7700 3850
+F 0 "J11" H 7619 3525 50  0000 C CNN
+F 1 "Conn_01x02" H 7619 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7700 3850 50  0001 C CNN
+F 3 "~" H 7700 3850 50  0001 C CNN
+	1    7700 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5B6475DF
+P 3000 3050
+F 0 "J6" H 2919 2725 50  0000 C CNN
+F 1 "Conn_01x02" H 2919 2816 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 3050 50  0001 C CNN
+F 3 "~" H 3000 3050 50  0001 C CNN
+	1    3000 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5B6475E5
+P 3450 3050
+F 0 "J7" H 3370 2725 50  0000 C CNN
+F 1 "Conn_01x02" H 3370 2816 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 3050 50  0001 C CNN
+F 3 "~" H 3450 3050 50  0001 C CNN
+	1    3450 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 3800 4450 3050
+Wire Wire Line
+	4450 3050 3650 3050
+Wire Wire Line
+	2500 3800 2500 2950
+Wire Wire Line
+	2500 2950 2800 2950
+Wire Wire Line
+	6250 2950 6250 3800
+Wire Wire Line
+	4100 3450 3800 3450
+Wire Wire Line
+	3800 3450 3800 3750
+Wire Wire Line
+	3800 3750 3650 3750
+Connection ~ 4100 3450
+Wire Wire Line
+	4100 4250 3800 4250
+Wire Wire Line
+	3800 4250 3800 3850
+Wire Wire Line
+	3800 3850 3650 3850
+Connection ~ 4100 4250
+Wire Wire Line
+	2150 4250 2750 4250
+Wire Wire Line
+	2750 4250 2750 3850
+Wire Wire Line
+	2750 3850 2800 3850
+Connection ~ 2150 4250
+Wire Wire Line
+	2150 3450 2650 3450
+Wire Wire Line
+	2650 3450 2650 3750
+Wire Wire Line
+	2650 3750 2800 3750
+Connection ~ 2150 3450
+Wire Wire Line
+	1300 3450 1000 3450
+Wire Wire Line
+	1000 3450 1000 3750
+Wire Wire Line
+	1000 3750 850  3750
+Connection ~ 1300 3450
+Wire Wire Line
+	1300 4250 950  4250
+Wire Wire Line
+	950  4250 950  3850
+Wire Wire Line
+	950  3850 850  3850
+Connection ~ 1300 4250
+Wire Wire Line
+	2800 3050 1650 3050
+Wire Wire Line
+	1650 3050 1650 3800
+Wire Wire Line
+	7500 3750 7150 3750
+Wire Wire Line
+	7150 3750 7150 3450
+Wire Wire Line
+	7150 3450 6800 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	7500 4250 6800 4250
+Wire Wire Line
+	7500 3850 7500 4250
+Connection ~ 6800 4250
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 5B653369
+P 5500 2600
+F 0 "J5" H 5550 2917 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5550 2826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5500 2600 50  0001 C CNN
+F 3 "~" H 5500 2600 50  0001 C CNN
+	1    5500 2600
+	0    1    -1   0   
+$EndComp
+Connection ~ 5000 3800
+Wire Wire Line
+	5000 3800 5000 3850
+Connection ~ 4450 3050
+Wire Wire Line
+	6800 3800 7000 3800
+Connection ~ 6800 3800
+Wire Wire Line
+	6800 3800 6800 3850
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5B65DDCF
+P 2800 1500
+F 0 "J2" H 2719 1175 50  0000 C CNN
+F 1 "Conn_01x02" H 2719 1266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2800 1500 50  0001 C CNN
+F 3 "~" H 2800 1500 50  0001 C CNN
+	1    2800 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5B65DDD5
+P 3250 1500
+F 0 "J3" H 3170 1175 50  0000 C CNN
+F 1 "Conn_01x02" H 3170 1266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3250 1500 50  0001 C CNN
+F 3 "~" H 3250 1500 50  0001 C CNN
+	1    3250 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1400 1600 1400
+Wire Wire Line
+	1600 1400 1600 1050
+Wire Wire Line
+	1600 1050 1750 1050
+Connection ~ 1750 1050
+Wire Wire Line
+	1400 1500 1600 1500
+Wire Wire Line
+	1600 1500 1600 1850
+Wire Wire Line
+	1600 1850 1750 1850
+Connection ~ 1750 1850
+Wire Wire Line
+	2250 1050 2450 1050
+Wire Wire Line
+	2450 1050 2450 1400
+Wire Wire Line
+	2450 1400 2600 1400
+Connection ~ 2250 1050
+Wire Wire Line
+	2600 1500 2600 1850
+Wire Wire Line
+	2600 1850 2250 1850
+Connection ~ 2250 1850
+Wire Wire Line
+	3450 1400 3650 1400
+Wire Wire Line
+	3650 1400 3650 1050
+Wire Wire Line
+	3650 1050 3800 1050
+Connection ~ 3800 1050
+Wire Wire Line
+	3450 1500 3650 1500
+Wire Wire Line
+	3650 1500 3650 1850
+Wire Wire Line
+	3650 1850 3800 1850
+Connection ~ 3800 1850
+Wire Wire Line
+	5700 1400 5550 1400
+Wire Wire Line
+	5550 1400 5550 1050
+Wire Wire Line
+	5550 1050 5300 1050
+Connection ~ 5300 1050
+Wire Wire Line
+	5700 1500 5700 1850
+Wire Wire Line
+	5700 1850 5300 1850
+Connection ~ 5300 1850
+Wire Wire Line
+	3650 2950 5500 2950
+Wire Wire Line
+	4100 4250 4750 4250
+Wire Wire Line
+	7000 2050 5600 2050
+Wire Wire Line
+	5600 2050 5600 2300
+Wire Wire Line
+	7000 2050 7000 3800
+Wire Wire Line
+	4750 4250 4750 2050
+Wire Wire Line
+	4750 2050 5500 2050
+Wire Wire Line
+	5500 2050 5500 2300
+Connection ~ 4750 4250
+Wire Wire Line
+	4750 4250 5000 4250
+Wire Wire Line
+	5500 2950 5500 2800
+Connection ~ 5500 2950
+Wire Wire Line
+	5500 2950 6250 2950
+Wire Wire Line
+	5600 2800 5600 3450
+Wire Wire Line
+	5000 3450 5600 3450
+Connection ~ 5600 3450
+Wire Wire Line
+	5600 3450 5900 3450
+Wire Wire Line
+	5400 2300 4450 2300
+Wire Wire Line
+	4450 2300 4450 3050
+Wire Wire Line
+	5400 3800 5400 2800
+Wire Wire Line
+	5000 3800 5400 3800
+Wire Wire Line
+	5900 3450 6800 3450
+Text Notes 2750 750  0    50   ~ 0
+LEDs - L-7113SF6C (L-53SF6C)\nOptotransistors - L-7113P3C (L53P3C)
+Text Notes 7300 2600 0    50   ~ 0
+J5:\n1 - +5V\n2 - OUT4\n3 - OUT3\n4 - GND\n5 - OUT2\n6 - OUT1
+$EndSCHEMATC
